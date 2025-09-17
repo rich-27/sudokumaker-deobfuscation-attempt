@@ -1,0 +1,22 @@
+@vue/shared,                          2,    174
+@vue/reactivity,                    179,   1293
+@vue/runtime-core,                 1298,   4245
+@vue/runtime-dom,                  4250,   4966
+@lezer/common,                     4971,   6244
+@codemirror/state,                 6249,   8864
+style-mod,                         8869,   8987
+w3c-keyname,                       8992,   9100
+@codemirror/view,                  9105,  18385
+@codemirror/highlight,            18390,  18750
+@codemirror/language,             18755,  20087
+@codemirror/autocomplete,         20092,  21856
+@codemirror/commands,             21861,  23019
+@lezer/lr,                        23024,  24411
+lezer generated from .grammar?,   24416,  25311
+crelt,                            35316,  25338
+@codemirror/lint,                 25343,  25857
+@codemirror/search,               25862,  26955
+simple-runtypes,                  26959,  27299
+md5,                              27304,  27601
+comlink,                          27606,  27852
+exports,                          27857,  27963
