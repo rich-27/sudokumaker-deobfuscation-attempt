@@ -1,3 +1,4 @@
+// BEGIN @vue/shared
 /**
  * @vue/shared v3.5.13
  * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -171,6 +172,10 @@ const Rd = (i) => !!(i && i.__v_isRef === !0),
     var t;
     return mi(i) ? `Symbol(${(t = i.description) != null ? t : e})` : i;
   };
+// END @vue/shared
+
+
+// BEGIN @vue/reactivity
 /**
  * @vue/reactivity v3.5.13
  * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -1286,6 +1291,10 @@ function fi(i, e = 1 / 0, t) {
   }
   return i;
 }
+// END @vue/reactivity
+
+
+// BEGIN @vue/runtime-core
 /**
  * @vue/runtime-core v3.5.13
  * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -4234,6 +4243,10 @@ function c1(i, e, t) {
       tt(i, e, t));
 }
 const f1 = "3.5.13";
+// END @vue/runtime-core
+
+
+// BEGIN @vue/runtime-dom
 /**
  * @vue/runtime-dom v3.5.13
  * (c) 2018-present Yuxi (Evan) You and Vue contributors
@@ -4951,6 +4964,10 @@ function V1(i) {
 function q1(i) {
   return we(i) ? document.querySelector(i) : i;
 }
+// END @vue/runtime-dom
+
+
+// BEGIN @lezer/common
 const Np = 1024;
 let z1 = 0,
   Nl = class {
@@ -6225,6 +6242,10 @@ class K1 {
   }
 }
 new ne({ perNode: !0 });
+// END @lezer/common
+
+
+// BEGIN @codemirror/state
 class he {
   lineAt(e) {
     if (e < 0 || e > this.length)
@@ -8841,6 +8862,10 @@ function Fa(i, e, t, n) {
   }
   return n === !0 ? -1 : i.length;
 }
+// END @codemirror/state
+
+
+// BEGIN style-mod
 const Ha = "ͼ",
   Uf = typeof Symbol > "u" ? "__" + Ha : Symbol.for(Ha),
   Ka =
@@ -8960,6 +8985,10 @@ class Oy {
       this.styleTag.setAttribute("nonce", e);
   }
 }
+// END style-mod
+
+
+// BEGIN w3c-keyname
 var qi = {
     8: "Backspace",
     9: "Tab",
@@ -9069,6 +9098,10 @@ function by(i) {
     t
   );
 }
+// END w3c-keyname
+
+
+// BEGIN @codemirror/view
 function Bs(i) {
   let e;
   return (
@@ -18350,6 +18383,10 @@ const ES = new (class extends gi {
 function w$() {
   return WS;
 }
+// END @codemirror/view
+
+
+// BEGIN @codemirror/highlight
 let XS = 0;
 class Ht {
   constructor(e, t, n) {
@@ -18711,6 +18748,10 @@ vg([
   { tag: w.invalid, class: "tok-invalid" },
   { tag: w.punctuation, class: "tok-punctuation" },
 ]);
+// END @codemirror/highlight
+
+
+// BEGIN @codemirror/language
 var la;
 const Cn = new ne();
 function $g(i) {
@@ -20044,6 +20085,10 @@ function Cw(i, e) {
   return Uu.push(o), o.id;
 }
 Se.RTL, Se.LTR;
+// END @codemirror/language
+
+
+// BEGIN @codemirror/autocomplete
 class qg {
   constructor(e, t, n) {
     (this.state = e),
@@ -21809,6 +21854,10 @@ const wQ = [
   QQ = Hi.highest(
     yc.computeN([Ne], (i) => (i.facet(Ne).defaultKeymap ? [wQ] : []))
   ),
+// END @codemirror/autocomplete
+
+
+// BEGIN @codemirror/commands
   PQ = (i) => {
     let { state: e } = i,
       t = e.doc.lineAt(e.selection.main.from),
@@ -22968,6 +23017,10 @@ const CP = ({ state: i, dispatch: e }) => {
     { key: "Ctrl-m", mac: "Shift-Alt-m", run: ZP },
   ].concat(TP),
   W$ = { key: "Tab", run: Tm, shift: Am };
+// END @codemirror/commands
+
+
+// BEGIN @lezer/lr
 var ld = {};
 class Io {
   constructor(e, t, n, s, r, o, l, a, h, c = 0, f) {
@@ -24356,6 +24409,10 @@ function dd(i) {
   }
   return i.get;
 }
+// END @lezer/lr
+
+
+// BEGIN lezer generated from .grammar?
 const LP = 312,
   pd = 1,
   UP = 2,
@@ -25252,6 +25309,10 @@ const vk =
 function Y$() {
   return new Zg(Rk);
 }
+// END lezer generated from .grammar?
+
+
+// BEGIN crelt.js
 function be() {
   var i = arguments[0];
   typeof i == "string" && (i = document.createElement(i));
@@ -25275,6 +25336,10 @@ function Lm(i, e) {
     else if (Array.isArray(e)) for (var t = 0; t < e.length; t++) Lm(i, e[t]);
     else throw new RangeError("Unsupported child node: " + e);
 }
+// END crelt.js
+
+
+// BEGIN codemirror-lint.js
 class Tk {
   constructor(e, t, n) {
     (this.from = e), (this.to = t), (this.diagnostic = n);
@@ -25790,6 +25855,10 @@ const Lk = q.baseTheme({
     vS(Ek, { hideOn: Ak }),
     Lk,
   ],
+// END codemirror-lint.js
+
+
+// BEGIN codemirror-search.js
   yd =
     typeof String.prototype.normalize == "function"
       ? (i) => i.normalize("NFKD")
@@ -26883,6 +26952,10 @@ const dv = q.baseTheme({
     "&dark .cm-searchMatch-selected": { backgroundColor: "#ff00ff8a" },
   }),
   pv = [Yi, Hi.low(av), dv];
+// END codemirror-search.js
+
+
+// BEGIN simple-runtypes.js
 function hr(i, e) {
   e === void 0 && (e = 512);
   var t;
@@ -27224,6 +27297,10 @@ function G$() {
     return fr(o, l, r);
   }, s);
 }
+// END simple-runtypes.js
+
+
+// BEGIN md5
 class We {
   constructor() {
     (this._dataLength = 0),
@@ -27522,6 +27599,10 @@ We.hexOut = [];
 We.onePassHasher = new We();
 if (We.hashStr("hello") !== "5d41402abc4b2a76b9719d911017c592")
   throw new Error("Md5 self test failed.");
+// END md5
+
+
+// BEGIN comlink.mjs
 /**
  * @license
  * Copyright 2019 Google LLC
@@ -27769,6 +27850,10 @@ function Dv() {
     .map(() => Math.floor(Math.random() * Number.MAX_SAFE_INTEGER).toString(16))
     .join("-");
 }
+// END comlink.mjs
+
+
+// BEGIN exports
 export {
   Y$ as $,
   w$ as A,
@@ -27876,3 +27961,4 @@ export {
   C$ as y,
   S$ as z,
 };
+// END exports
